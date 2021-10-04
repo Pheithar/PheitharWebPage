@@ -6,6 +6,7 @@
             <div *ngFor="let experience of text.experiences" class="experience-section__jobs-content__box" style=--color:{{experience.color}};>
                 <i class="experience-section__jobs-content__box__icon icon-basic-map"></i>
                 <h3 class="u-margin-bottom-small h3-font">{{experience.title}}</h3>
+                <br>
                 <p class="u-margin-bottom-medium experience-section__jobs-content__box__text p-font">
                   {{experience.content}}
                 </p>
@@ -26,6 +27,7 @@
             <div *ngFor="let study of text.studies" class="experience-section__studies-content__box" style=--color:{{study.color}};>
                 <i class="experience-section__studies-content__box__icon icon-basic-map"></i>
                 <h3 class="u-margin-bottom-small h3-font">{{study.title}}</h3>
+                <br>
                 <p class="u-margin-bottom-medium experience-section__studies-content__box__text p-font">
                   {{study.content}}
                 </p>

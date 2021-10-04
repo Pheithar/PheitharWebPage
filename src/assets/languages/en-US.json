@@ -8,6 +8,7 @@
      "contact": "Contacto"
    },
    "frontpage": {
+     "profile_picture": "assets/images/profilePicture.jpg",
      "profile_alt": "profile",
      "name": "Full Name",
      "role": "Ingeniería Informática",
