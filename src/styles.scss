@@ -1,17 +1,20 @@
 @import "mediaQueryManager.scss";
 
 /* Colours */
-$color-principal: #7de7f5;
-$color-principal-light: #b3eef6;
-$color-principal-dark: #29cfcf;
-$color-secondary: #ce3a3a;
+$color-principal: #f7b801;
+$color-principal-light: #f35b04;
+$color-principal-dark: #f7b801;
+$color-secondary: #7678ed;
 $color-secondary-light: #f17979;
-$color-secondary-dark: #a13434;
+$color-secondary-dark: #3d348b;
 $color-black: #000;
 $color-white: #ffffff;
 $color-text: #ffffff;
 $color-text-alternative: #111;
 $color-text-gray: #777;
+$color-bg: #FFFFFF;
+$color-bg-secondary: #e16f6f;
+$color-bg-terciary: #e1b6b6;
 
 $filter-color-svg: invert(23%) sepia(70%) saturate(901%) hue-rotate(139deg) brightness(97%) contrast(91%); // sacarlo de aquí --> https://codepen.io/sosuke/pen/Pjoqqp
 
@@ -25,14 +28,14 @@ $drop-shadow-btn-svg: drop-shadow(.5rem .5rem 1rem rgba(0, 0, 0, .5));
   padding: 0;
   box-sizing: inherit;
 
-	
+
 }
 
 html{
   font-size: 62.5%; /* default font size is 16, so with this we have 10px of default*/
   scroll-behavior: smooth;
 
-	
+
 	@include respond(tab-land) { // width < 1200?
 			font-size: 56.25%; //1 rem = 9px, 9/16 = 50%
 	}
@@ -40,7 +43,7 @@ html{
 	  @include respond(tab-port) { // width < 900?
         font-size: 50%; //1 rem = 8px, 8/16 = 50%
     }
-    
+
     @include respond(big-desktop) {
         font-size: 75%; //1rem = 12, 12/16
     }
@@ -63,7 +66,9 @@ body{
     padding-bottom: 0;
 
     width: 100%;
-    
+
+    background-color: $color-bg;
+
     @include respond(tab-port) {
         padding: 0;
         // margin: 0;
@@ -176,5 +181,3 @@ body{
 .u-margin-bottom-small{
     margin-bottom: 0.1rem;
 }
-
-

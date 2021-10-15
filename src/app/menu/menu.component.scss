@@ -44,12 +44,12 @@
 
     position: absolute;
 
-    height: 7rem;
-    width: 7rem;
+    height: 5rem;
+    width: 5rem;
     border-radius: 50%;
 
-    height: 6rem;
-    width: 6rem;
+    margin: 1rem;
+
     background-color: $color-principal;
 
     transition: all .3s;
@@ -60,7 +60,7 @@
   &-icon {
     position: relative;
     // margin-top: 3.5rem;
-    margin-top: 3rem;
+    margin-top: 2.5rem;
 
     z-index: 3;
 
@@ -126,22 +126,30 @@
     top: -3rem;
 
     padding: 7rem 2.5rem;
-    background-color: $color-principal;
+    background-color: $color-bg-secondary;
 
     &-element {
       text-align: center;
       cursor: pointer;
 
-      margin: 3rem;
+      padding: 3rem;
 
       & > label {
         text-decoration: none;
         color: $color-text-alternative;
         cursor: pointer;
+
+        &:hover {
+          background-image: none;
+        }
       }
 
-      :hover{
-        background-color: $color-principal-light;
+    }
+    :hover{
+      background-image: radial-gradient(ellipse closest-side, $color-principal, $color-bg-secondary);
+
+      & > label {
+        color: $color-text;
       }
     }
   }

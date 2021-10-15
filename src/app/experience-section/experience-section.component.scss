@@ -10,7 +10,7 @@
     width: 100%;
     margin: auto;
 
-    background: $color-secondary;
+    background-image: radial-gradient(closest-side, $color-bg, $color-principal);
 
     &__jobs, &__studies{
         width: 90vw;
@@ -52,7 +52,8 @@
                 box-shadow: 0 1rem 3rem rgba(0, 0, 0, .1);
                 cursor: pointer;
                 transition: .2s;
-                background-color: $color-secondary-light;
+                // background-color: $color-secondary-light;
+                background-image: linear-gradient(to right bottom, #184281, #0070b6, #009ec4, #00c8a3, #12eb5d);
 
                 &:hover {
                   transform: translateY(-.5rem);

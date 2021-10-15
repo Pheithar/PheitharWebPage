@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-around;
     min-height: 100vh;
-    background-color: $color-secondary-dark;
+    background-image: linear-gradient(to left bottom, #f17979, #fb7f6a, #ff895a, #ff9547, #ffa332, #fdaa27, #fbb119, #f7b801, #f7b801, #f7b801, #f7b801, #f7b801);
     padding: 10rem 3rem;
 
     @include respond(tab-land){
@@ -14,7 +14,7 @@
     }
 
     // @include respond(phone){
-        
+
     // }
 
     & > * {

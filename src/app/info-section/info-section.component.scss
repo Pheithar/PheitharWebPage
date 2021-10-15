@@ -15,7 +15,7 @@
     width: 100%;
     margin: auto;
 
-    background-color: $color-secondary-light;
+     background-image: linear-gradient(to left top, #f17979, #fb7f6a, #ff895a, #ff9547, #ffa332, #fdaa27, #fbb119, #f7b801, #f7b801, #f7b801, #f7b801, #f7b801);
 
     @include respond(tab-land) {
        flex-direction: column;
@@ -23,18 +23,18 @@
        justify-content: center;
     }
 
-    
+
 
     &__card{
         background-color: $color-secondary-dark;
         padding: 3rem;
         margin: 1.5rem;
-        
+
         min-width: 50rem;
         max-width: 60rem;
-        
+
         border-radius: 1rem;
-        
+
         @include respond(tab-port){
             width: 80%;
         }
@@ -43,7 +43,7 @@
             min-width: 0;
             width: 70%;
         }
-        
+
         @include respond(phone){
             &-text-tools{
                 font-size: 5rem !important;
