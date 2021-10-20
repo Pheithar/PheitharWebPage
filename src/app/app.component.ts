@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'WebCVtemplate';
+  title = 'PheitharWebPage';
   language = "es-ES";
 
   selectLanguage(language: string) {
