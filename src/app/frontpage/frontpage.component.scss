@@ -15,8 +15,8 @@
 	background-color: $color-principal;
     color: $color-text-alternative;
 
-    background: linear-gradient(to top, $color-principal, $color-secondary);
-
+    // background: linear-gradient(to top, $color-principal, $color-secondary);
+    background: linear-gradient(to top, rgba(247, 184, 1, .8), rgba(118, 120, 237, .95));
 
 
     @include respond(tab-land) {

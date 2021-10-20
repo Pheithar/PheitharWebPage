@@ -10,7 +10,7 @@
     width: 100%;
     padding: 2rem 0 2rem 0;
 
-    background-color: $color-principal;
+    background-color: rgba(247, 184, 1, .8);
 
     &__rrss{
         width: 30%;
@@ -24,7 +24,7 @@
         @include respond(tab-port) {
             width: 60%;
         }
-    
+
         @include respond(phone) {
             width: 80%;
         }
@@ -41,6 +41,6 @@
         flex-flow: row wrap;
         justify-self: center;
 
-        text-transform: uppercase;
+        // text-transform: uppercase;
     }
 }

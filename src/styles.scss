@@ -68,6 +68,17 @@ body{
     width: 100%;
 
     background-color: $color-bg;
+    background: linear-gradient(
+      rgba(255, 255, 255, .3),
+      rgba(255, 255, 255, .3)),
+      url("./assets/images/bg1.jpg");
+    background-size: cover;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+
 
     @include respond(tab-port) {
         padding: 0;
@@ -95,9 +106,9 @@ body{
     overflow: hidden;
 
     font-size: 1.5rem;
-    font-weight: 300;
     text-decoration: none;
-    text-transform: uppercase;
+    // text-transform: uppercase;
+    text-align: center;
 
     border: none;
     padding: 0.5rem;
@@ -113,7 +124,9 @@ body{
 
     &:hover {
         top: -0.1rem;
-        box-shadow: 0 1rem 4rem $color-secondary-light;
+        border-radius: 1rem;
+        color: rgb(118, 120, 237);
+        font-weight: bold;
     }
 
     &-svg:hover, &-svg>img:hover{

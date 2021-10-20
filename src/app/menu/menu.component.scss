@@ -50,7 +50,7 @@
 
     margin: 1rem;
 
-    background-color: $color-principal;
+    // background-color: $color-principal;
 
     transition: all .3s;
 
@@ -83,10 +83,10 @@
     }
 
     &::before {
-      top: -.8rem;
+      top: -1rem;
     }
     &::after {
-      top: .8rem;
+      top: 1rem;
     }
   }
 

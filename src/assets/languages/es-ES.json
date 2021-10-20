@@ -31,10 +31,10 @@
      "title_experience": "Experiencia",
      "experiences": [
        {
-         "title": "Práctica de Empresa en Desarrollo FronEnd con React",
+         "title": "Práctica de Empresa en Desarrollo FrontEnd con React",
          "content": "Prácticas en la empresa Global Incubator para un proyecto en el que trabajé junto al equipo de FrontEnd utilizando React. Las prácticas fueron en Madrid",
          "more_info": "Más información",
-         "color": "rgb(22, 255, 43)",
+         "color": "#f76201",
          "date": "Junio 2020 - Agosto 2020"
        }
      ],

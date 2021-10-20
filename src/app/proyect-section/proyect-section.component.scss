@@ -4,8 +4,21 @@
     display: flex;
     justify-content: space-around;
     min-height: 100vh;
-    background-image: linear-gradient(to left bottom, #f17979, #fb7f6a, #ff895a, #ff9547, #ffa332, #fdaa27, #fbb119, #f7b801, #f7b801, #f7b801, #f7b801, #f7b801);
-    padding: 10rem 3rem;
+    background-image: linear-gradient(
+       to left bottom,
+       rgba(241, 121, 121, .8),
+       rgba(251, 127, 106, .8),
+       rgba(255, 137, 90, .8),
+       rgba(255, 149, 71, .8),
+       rgba(255, 163, 50, .8),
+       rgba(253, 170, 39, .8),
+       rgba(251, 177, 25, .8),
+       rgba(247, 184, 1, .8),
+       rgba(247, 184, 1, .8),
+       rgba(247, 184, 1, .8),
+       rgba(247, 184, 1, .8),
+       rgba(247, 184, 1, .8));
+    padding: 10rem 3rem 2rem;
 
     @include respond(tab-land){
       flex-direction: column;
