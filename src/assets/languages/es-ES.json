@@ -12,7 +12,7 @@
      "profile_alt": "perfil",
      "name": "Alejandro Valverde Mahou",
      "role": "Ingeniero Informático, Estudiante de Máster",
-     "about_me": "Estudiante, actualmente en Dinamarca realizando mi master. Aficionado de la Inteligencia Artificial y el Machine Learning, aunque me gusta aprender de todo un poco. Estudié mi grado en Ingeniería Informática en la Universidad Carlos III de Madrid, y ahora estoy estudiando en la DTU el master de Inteligencia Artificial Centrada en los Humanos, en Copenhague.",
+     "about_me": "Estudiante. Actualmente en Dinamarca realizando mi master. Aficionado de la Inteligencia Artificial y el Machine Learning, aunque me gusta aprender de todo un poco. Estudié mi grado en Ingeniería Informática en la Universidad Carlos III de Madrid, y ahora estoy estudiando en la DTU el master de Inteligencia Artificial Centrada en los Humanos, en Copenhague.",
      "cv": "assets/docs/Alejandro_Valverde_CV.pdf",
      "cv_alt": "CV",
      "cv_img": "assets/icons/curriculum-vitae.png",
@@ -55,7 +55,7 @@
        },
        {
          "title": "Máster en Human-Centered Artificial Intelligence en la Danmarks Tekniske Universitet (DTU)",
-         "content": "Actualmente cursando el máster de Human-Centered Artificial Intelligence en Kogens Lyngby, Dinamarca",
+         "content": "Actualmente cursando el máster de Human-Centered Artificial Intelligence en Kongens Lyngby, Dinamarca",
          "more_info": "Más información",
          "color": "rgb(153, 0, 0)",
          "date": "Septiembre 2021 - Junio 2023",
@@ -98,7 +98,7 @@
          "stars": 0
        }
      ],
-     "title_programing": "Programación",
+     "title_programing": "Lenguages de Programación",
      "programing": [
        {
          "name": "Python",
@@ -146,12 +146,13 @@
      ]
    },
    "proyect_section": {
+     "title_projects": "Proyectos",
      "proyects": [
        {
          "id": "project-1",
          "identifier": "project-1",
          "title": "Trabajo de Fin de Grado: Diseño adversarial para la industria del videojuego",
-         "content": "Mi Trabajo de Fin de Grado de Ingeniería informática. Consiste en el uso de Redes Generativas Adversariales para la creación de nuevas imágenes de Pokémon. El TFG está excrito en español, a excepción de las últimas 10 páginas, que sirven como resumen en ingés. Mi tutor fue Alejandro Cervantes Rovira, y le agradezco enormemente su ayuda. Después de defender el trabajo en Julio de 2021, me pusieron un 10/10, y me nominaron a Matrícula de Honor, que al final me otorgaron en Noviembre de 2021.",
+         "content": "Mi Trabajo de Fin de Grado de Ingeniería informática. Consiste en el uso de Redes Generativas Adversariales para la creación de nuevas imágenes de Pokémon. El TFG está escrito en español, a excepción de las últimas 10 páginas, que sirven como resumen en ingés. Mi tutor fue Alejandro Cervantes Rovira, y le agradezco enormemente su ayuda. Después de defender el trabajo en Julio de 2021, me pusieron un 10/10, y me nominaron a Matrícula de Honor, que al final me otorgaron en Noviembre de 2021.",
          "img_path": "assets/images/icon_df.png",
          "img_alt": "Imagen del proyecto",
          "btn": "Link al documento",
@@ -204,7 +205,7 @@
          "img_alt": "Imagen del proyecto",
          "btn": "Link al código",
          "link": "https://github.com/Pheithar/Hnefatafl",
-         "filetxt": "Link a la aplicaión",
+         "filetxt": "Link a la aplicación",
          "file": "https://pheithar.github.io/Hnefatafl/"
        },
        {
@@ -235,7 +236,7 @@
          "id": "project-1",
          "identifier": "project-1",
          "title": "WebCVtemplate",
-         "content": "Template de donde sale esta página. Lo hice con dos compañeros para crearnos nuestras propas páginas web y aprender más angular en el proceso :).",
+         "content": "Template de donde sale esta página. Lo hice con dos compañeros para crearnos nuestras propas páginas web y aprender más Angular en el proceso :).",
          "img_path": "assets/images/webtemplate.png",
          "img_alt": "Imagen del proyecto",
          "btn": "Link al código",

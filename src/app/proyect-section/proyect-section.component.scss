@@ -20,7 +20,7 @@
        rgba(247, 184, 1, .8),
        rgba(247, 184, 1, .8),
        rgba(247, 184, 1, .8));
-    padding: 10rem 3rem 2rem;
+    padding: -2rem 3rem 2rem;
 
     @include respond(tab-land){
       flex-direction: column;
@@ -43,15 +43,15 @@
         // flex-grow: 1;
 
         @include respond(tab-land){
-          width: 70%;
+          max-width: 70%;
         }
 
         @include respond(tab-port){
-          width: 80%;
+          max-width: 80%;
         }
 
         @include respond(phone){
-          width: 90%;
+          max-width: 90%;
         }
 
       }
