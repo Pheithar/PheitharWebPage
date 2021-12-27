@@ -32,16 +32,16 @@ export class ProyectDetailComponent implements OnInit {
 
   ngOnChanges(changes: SimpleChanges) {
     this.selectLanguage();
-    setTimeout(() => { 
+    setTimeout(() => {
       this.removeListeners();
-      this.addListeners(); 
+      this.addListeners();
     }, 500);
 
   }
-  
+
   selectLanguage() {
     if (this.language == "es-ES") {
-      this.text = language_es.proyect_section;   
+      this.text = language_es.proyect_section;
     } else if (this.language == "en-US") {
       this.text = language_en.proyect_section;
     }
@@ -51,7 +51,7 @@ export class ProyectDetailComponent implements OnInit {
   updateText(){
     this.text.proyects.forEach(p => {
       if (p.identifier == this.selectedProject) {
-        
+
         this.text_content = p.content;
         this.img = p.img_path;
         this.img_alt = p.img_alt;
@@ -66,19 +66,14 @@ export class ProyectDetailComponent implements OnInit {
     if (event){
       this.selectedProject = this.changeProject(event);
       this.updateText();
-      
     }
-    
-          // console.log(this.selectedProject);
-    
+
+
     const body = document.querySelector('body');
     if(body){
       body.classList.add('avoidScroll');
     }
 
-    // let x = window.scrollX;
-    // let y = window.scrollY;
-    // window.onscroll = function () { window.scrollTo(x, y); };
   }
 
   changeProject(event: Event){
@@ -94,7 +89,7 @@ export class ProyectDetailComponent implements OnInit {
     });
     return result;
   }
-  
+
   closePopUp(event: Event) {
     this.isVisible = false;
     const body = document.querySelector('body');
@@ -130,7 +125,7 @@ export class ProyectDetailComponent implements OnInit {
     this.text.proyects.forEach(element => {
       projectsId.push(element.identifier)
     });
-    
+
     buttons.forEach((but) =>{
       let c_project = but.closest('.section')?.id;
       if (c_project && projectsId.includes(c_project)){
@@ -143,5 +138,3 @@ export class ProyectDetailComponent implements OnInit {
 
 
 }
-
-

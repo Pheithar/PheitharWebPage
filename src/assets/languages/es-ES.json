@@ -11,8 +11,12 @@
      "profile_picture": "assets/images/profilePicture.jpg",
      "profile_alt": "perfil",
      "name": "Alejandro Valverde Mahou",
-     "role": "Ingeniería Informática",
+     "role": "Ingeniero Informático, Estudiante de Máster",
      "about_me": "Estudiante, actualmente en Dinamarca realizando mi master. Aficionado de la Inteligencia Artificial y el Machine Learning, aunque me gusta aprender de todo un poco. Estudié mi grado en Ingeniería Informática en la Universidad Carlos III de Madrid, y ahora estoy estudiando en la DTU el master de Inteligencia Artificial Centrada en los Humanos, en Copenhague.",
+     "cv": "assets/docs/Alejandro_Valverde_CV.pdf",
+     "cv_alt": "CV",
+     "cv_img": "assets/icons/curriculum-vitae.png",
+     "cv_color": "rgb(54, 196, 101)",
      "linkedin": "https://www.linkedin.com/in/alejandro-valverde-mahou-a547811a3/",
      "linkedin_alt": "Linkedin",
      "linkedin_img": "assets/icons/linkedin.svg",
@@ -35,7 +39,8 @@
          "content": "Prácticas en la empresa Global Incubator para un proyecto en el que trabajé junto al equipo de FrontEnd utilizando React. Las prácticas fueron en Madrid",
          "more_info": "Más información",
          "color": "#f76201",
-         "date": "Junio 2020 - Agosto 2020"
+         "date": "Junio 2020 - Agosto 2020",
+         "link": "https://www.globalincubator.com/"
        }
      ],
      "title_studies": "Estudios",
@@ -45,14 +50,16 @@
          "content": "Grado en Ingeniería Informática con mención en Computación y TFG en 'Diseño Adversarial para la Industria del Videojuego'",
          "more_info": "Más información",
          "color": "rgb(23, 23, 150)",
-         "date": "Septiembre 2017 - Junio 2021"
+         "date": "Septiembre 2017 - Junio 2021",
+         "link": "https://www.uc3m.es/grado/informatica"
        },
        {
          "title": "Máster en Human-Centered Artificial Intelligence en la Danmarks Tekniske Universitet (DTU)",
          "content": "Actualmente cursando el máster de Human-Centered Artificial Intelligence en Kogens Lyngby, Dinamarca",
          "more_info": "Más información",
          "color": "rgb(153, 0, 0)",
-         "date": "Septiembre 2021 - Junio 2023"
+         "date": "Septiembre 2021 - Junio 2023",
+         "link": "https://www.dtu.dk/english/education/msc/programmes/human-centered-artificial-intelligence"
        }
      ]
    },
@@ -66,25 +73,75 @@
        {
          "name": "Inglés",
          "stars": 4
+       },
+       {
+         "name": "Alemán",
+         "stars": 1
        }
      ],
-     "title_tools": "Herramientas",
-     "tools": [
+     "title_competences": "Competencias",
+     "competences": [
        {
-         "name": "Herramienta1",
-         "stars": 4
+         "name": "Inteligencia Artificial y Machine Learning",
+         "stars": 0
        },
        {
-         "name": "Herramienta2",
-         "stars": 1
+         "name": "Redes de Neuronas Artificiales",
+         "stars": 0
        },
        {
-         "name": "Herramienta3",
-         "stars": 5
+         "name": "Análisis y Visualización de Datos",
+         "stars": 0
        },
        {
-         "name": "Herramienta4",
-         "stars": 2
+         "name": "Algoritmos Genéticos y Evolutivos",
+         "stars": 0
+       }
+     ],
+     "title_programing": "Programación",
+     "programing": [
+       {
+         "name": "Python",
+         "stars": 0
+       },
+       {
+         "name": "HTML, CSS, JavaScript",
+         "stars": 0
+       },
+       {
+         "name": "C, C++",
+         "stars": 0
+       },
+       {
+         "name": "Bash",
+         "stars": 0
+       }
+     ],
+     "title_frameworks": "Frameworks",
+     "frameworks": [
+       {
+         "name": "Jupyter Notebook",
+         "stars": 0
+       },
+       {
+         "name": "Git, GitHub",
+         "stars": 0
+       },
+       {
+         "name": "LaTex, Markdown",
+         "stars": 0
+       },
+       {
+         "name": "Angular, React",
+         "stars": 0
+       },
+       {
+         "name": "Godot",
+         "stars": 0
+       },
+       {
+         "name": "Blender",
+         "stars": 0
        }
      ]
    },
@@ -93,11 +150,122 @@
        {
          "id": "project-1",
          "identifier": "project-1",
-         "title": "Titulo 1",
-         "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vehicula bibendum lacus ut dignissim. Proin metus lacus, blandit vehicula turpis sagittis, blandit pellentesque augue. Aenean eget aliquet urna. Phasellus quis mauris vitae dolor finibus feugiat. Donec eleifend, enim vitae suscipit posuere, diam quam iaculis sapien, vel molestie justo elit at leo. Etiam pulvinar, libero ac dictum tempus, magna eros elementum libero, a aliquet lorem magna eu sem.",
-         "img_path": "assets/images/example.webp",
+         "title": "Trabajo de Fin de Grado: Diseño adversarial para la industria del videojuego",
+         "content": "Mi Trabajo de Fin de Grado de Ingeniería informática. Consiste en el uso de Redes Generativas Adversariales para la creación de nuevas imágenes de Pokémon. El TFG está excrito en español, a excepción de las últimas 10 páginas, que sirven como resumen en ingés. Mi tutor fue Alejandro Cervantes Rovira, y le agradezco enormemente su ayuda. Después de defender el trabajo en Julio de 2021, me pusieron un 10/10, y me nominaron a Matrícula de Honor, que al final me otorgaron en Noviembre de 2021.",
+         "img_path": "assets/images/icon_df.png",
          "img_alt": "Imagen del proyecto",
-         "btn": "Más información"
+         "btn": "Link al documento",
+         "link": "assets/docs/TFG.pdf",
+         "filetxt": "",
+         "file": ""
+       },
+       {
+         "id": "project-1",
+         "identifier": "project-1",
+         "title": "COCO SSD Web app",
+         "content": "Un intento de incorporar la red de Tensorflow COCO SSD en una aplicación web haciendo uso de Tensorflowjs. Es una aplicación muy ligera y sencilla, para aprender a desplegar redes de neuronas en entornos distintos a Python, permitiendo más interacción con los usuarios.",
+         "img_path": "assets/images/prediction1.png",
+         "img_alt": "Imagen del proyecto",
+         "btn": "Link al código",
+         "link": "https://github.com/Pheithar/coco_ssd_web",
+         "filetxt": "Link a la aplicación",
+         "file": "https://pheithar.github.io/coco_ssd_web/"
+       },
+       {
+         "id": "project-1",
+         "identifier": "project-1",
+         "title": "Animal Sound Classsifier",
+         "content": "Proyecto final de la asignatura Deep Learning en la DTU. Consiste en la aplicación de distinos tipos de redes de neuronas y un acercamineto jerárquico al problema de clasificar distintos sonidos de animales.",
+         "img_path": "assets/images/data.jpg",
+         "img_alt": "Imagen del proyecto",
+         "btn": "Link al código",
+         "link": "https://github.com/Pheithar/Animal-Sound",
+         "filetxt": "Link al poster",
+         "file": "assets/docs/AnimalSounds.pdf"
+       },
+       {
+         "id": "project-1",
+         "identifier": "project-1",
+         "title": "PokemonBattleBot (in development)",
+         "content": "Intento de construcción de distintos bots que sean capaces de realizar combates Pokémon en la plataforma de Smogon 'Pokémon Showdown'. Intento aplicar disntintas técnicas de inteligencia artificial para conseguir multiples bots distintos.",
+         "img_path": "assets/images/showdown.png",
+         "img_alt": "Imagen del proyecto",
+         "btn": "Link al código",
+         "link": "https://github.com/Pheithar/PokemonBattleBot",
+         "filetxt": "",
+         "file": ""
+       },
+       {
+         "id": "project-1",
+         "identifier": "project-1",
+         "title": "Hnefatafl",
+         "content": "El Hnefatafl, también conocido como ajedrez vikingo es un juego de estrategia de dos jugadores donde cada jugador tienen roles opuestos, atacante o defensor. El objetivo del defensor es slavar al rey, y el del atacante, capturarlo. Quise programar este juego para aprender a usar p5.js y pasar un rato entretenido.",
+         "img_path": "assets/images/Hnefatafl.png",
+         "img_alt": "Imagen del proyecto",
+         "btn": "Link al código",
+         "link": "https://github.com/Pheithar/Hnefatafl",
+         "filetxt": "Link a la aplicaión",
+         "file": "https://pheithar.github.io/Hnefatafl/"
+       },
+       {
+         "id": "project-1",
+         "identifier": "project-1",
+         "title": "Saving Universe 616",
+         "content": "Proyecto final de la asignatura Social Graphs and Interactions en la DTU. Consiste en un analisis de un grafo creado a partir de los personajes de Marvel del universo 616, de donde obtuvimos distintas estadisticas, atributos y análisis.",
+         "img_path": "assets/images/SavingUniverse616.png",
+         "img_alt": "Imagen del proyecto",
+         "btn": "Link al código",
+         "link": "https://github.com/Pheithar/SavingUniverse616",
+         "filetxt": "Link a la aplicación",
+         "file": "https://pheithar.github.io/SavingUniverse616/"
+       },
+       {
+         "id": "project-1",
+         "identifier": "project-1",
+         "title": "Pheithar Web Page",
+         "content": "Esta página web :). Esta página nace de una plantilla que hice con unos compañeros, y luego la he retocado para que se ajuste a mis gustos, y me permitiera ponerlo como yo quisiera. Esta desarrollado en Angular.",
+         "img_path": "assets/images/webpage.png",
+         "img_alt": "Imagen del proyecto",
+         "btn": "Link al código",
+         "link": "https://github.com/Pheithar/PheitharWebPage",
+         "filetxt": "",
+         "file": ""
+       },
+       {
+         "id": "project-1",
+         "identifier": "project-1",
+         "title": "WebCVtemplate",
+         "content": "Template de donde sale esta página. Lo hice con dos compañeros para crearnos nuestras propas páginas web y aprender más angular en el proceso :).",
+         "img_path": "assets/images/webtemplate.png",
+         "img_alt": "Imagen del proyecto",
+         "btn": "Link al código",
+         "link": "https://github.com/axpm/WebCVtemplate",
+         "filetxt": "",
+         "file": ""
+       },
+       {
+         "id": "project-1",
+         "identifier": "project-1",
+         "title": "H3lpMe: aplicación para la asignatura Diseño de Sistemas Interactivos",
+         "content": "Un proyecto de FrontEnd development con Angular para la asignatura Diseño de Sistemas Interactivos en la carrera de Ingeniería Informática en la Universidad Carlos III. No es perfecta, y tienen muchas cosas que habría que retocar/mejorar, pero nos costó lo suyo, y estoy orgulloso de ella, y me sirvió para aprender un poco de desarrollo FrontEnd y Angular.",
+         "img_path": "assets/images/helpme.png",
+         "img_alt": "Imagen del proyecto",
+         "btn": "Link al código",
+         "link": "https://github.com/Pheithar/h3lp-me-electron-app",
+         "filetxt": "Link a la aplicación",
+         "file": "https://h3lp-me.web.app/"
+       },
+       {
+         "id": "project-1",
+         "identifier": "project-1",
+         "title": "Password Generator",
+         "content": "Un pequeño generador de contraseñas que permite distintos parámetros dependiendo de los 'flags'. Lo use para aprender 'bash script' básico, y para pasar una tarde :)",
+         "img_path": "assets/images/psswGen.png",
+         "img_alt": "Imagen del proyecto",
+         "btn": "Link al código",
+         "link": "https://github.com/Pheithar/PasswordGenerator",
+         "filetxt": "",
+         "file": ""
        }
      ],
      "button_close": "Close"
@@ -122,6 +290,7 @@
     "email_alt": "Email",
     "email_img": "assets/icons/email.svg",
     "email_color": "rgb(199, 22, 16)",
+    "mail": "avalverdemahou@gmail.com",
     "creator": "Creado por:",
     "creator_Alba": "akua21",
     "creator_Alba_Link": "https://www.github.com/akua21",

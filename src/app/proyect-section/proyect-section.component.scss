@@ -2,6 +2,8 @@
 
 .proyect-section {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-around;
     min-height: 100vh;
     background-image: linear-gradient(
@@ -30,21 +32,30 @@
 
     // }
 
-    & > * {
-      margin: 3rem;
-      flex-grow: 1;
+    &-content {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: center;
 
-      @include respond(tab-land){
-        width: 70%;
-      }
+      & > * {
+        margin: 3rem;
+        // flex-grow: 1;
 
-      @include respond(tab-port){
-        width: 80%;
-      }
+        @include respond(tab-land){
+          width: 70%;
+        }
 
-      @include respond(phone){
-        width: 90%;
+        @include respond(tab-port){
+          width: 80%;
+        }
+
+        @include respond(phone){
+          width: 90%;
+        }
+
       }
 
     }
+
 }

@@ -167,12 +167,12 @@
 
   &__explore {
     display: block;
-    width: 100%;
-    padding: 1.5rem;
+    padding: 1rem;
     font-size: 2rem;
     text-align: center;
     color: black;
-    background-color: $color-principal;
+    background-color: $color-secondary-dark;
+    color: $color-text;
     border: none;
     border-radius: .4rem;
     transition: .2s;
@@ -185,6 +185,7 @@
 
     &:hover {
       background-color: $color-secondary;
+      color: $color-text-alternative;
 
       span {
         margin-left: 1.5rem;

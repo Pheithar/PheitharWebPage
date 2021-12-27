@@ -12,17 +12,15 @@ export class ProyectComponent implements OnInit {
   @Input() img?: String;
   @Input() img_alt?: String;
   @Input() btn?: String;
+  @Input() link?: string;
   @Input() id?: String;
+  @Input() fileText?: string;
+  @Input() file?: string;
 
-  // @Output() idOut = new EventEmitter<string>();
-
-  // sendId(idProyect: string) {
-  //   this.idOut.emit(idProyect);
-  // }
 
   constructor() { }
 
-  ngOnInit(): void {    
+  ngOnInit(): void {
   }
 
 }

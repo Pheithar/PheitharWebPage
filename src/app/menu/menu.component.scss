@@ -126,7 +126,7 @@
     top: -3rem;
 
     padding: 7rem 2.5rem;
-    background-color: $color-bg-secondary;
+    background-color: $color-secondary;
 
     &-element {
       text-align: center;
@@ -146,10 +146,11 @@
 
     }
     :hover{
-      background-image: radial-gradient(ellipse closest-side, $color-principal, $color-bg-secondary);
+      // background-image: radial-gradient(ellipse closest-side, $color-principal, $color-bg-secondary);
 
       & > label {
         color: $color-text;
+        font-weight: bold;
       }
     }
   }

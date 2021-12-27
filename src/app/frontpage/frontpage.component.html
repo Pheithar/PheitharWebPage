@@ -10,8 +10,9 @@
         {{text.about_me}}
     </p>
 
-
     <div class="frontpage__rrss">
+
+      <app-button class="frontpage__rrss-cv" [text]="text.cv_alt" [type]="'icon'" [color]="text.cv_color" [img]="text.cv_img" [link]="text.cv" [move]="true"></app-button>
 
       <app-button class="frontpage__rrss-linkedin" [text]="text.linkedin_alt" [type]="'icon'" [color]="text.linkedin_color" [img]="text.linkedin_img" [link]="text.linkedin" [move]="true"></app-button>
 
@@ -20,5 +21,6 @@
       <app-button class="frontpage__rrss-email" [text]="text.email_alt" [type]="'icon'" [color]="text.email_color" [img]="text.email_img" [link]="text.email" [move]="true"></app-button>
 
     </div>
+
 
   </div>

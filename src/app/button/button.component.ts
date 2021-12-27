@@ -10,17 +10,21 @@ export class ButtonComponent implements OnInit {
   @Input() text?: String;
 
   @Input() type = "default";
-  @Input() link? : String;
-  @Input() img? : String;
-  @Input() color? : String;
+  @Input() link? : string;
+  @Input() img? : string;
+  @Input() color? : string;
 
   @Input() move = false;
-
-  // @Input() id? : String;
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  clickFunc(): void {
+    if (this.link) {
+      window.open(this.link, "_blank");
+    }
   }
 
 }

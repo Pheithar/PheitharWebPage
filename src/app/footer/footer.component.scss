@@ -37,6 +37,12 @@
         }
     }
 
+    &__mail {
+      // color: $color-text;
+      font-weight: bolder;
+      margin-bottom: 2rem; 
+    }
+
     &__creators{
         flex-flow: row wrap;
         justify-self: center;

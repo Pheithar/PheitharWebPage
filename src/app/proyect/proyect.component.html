@@ -5,8 +5,10 @@
     <div class="section__description">
         {{content}}
     </div>
-    <app-button [text]="btn" [type]="'explore'"></app-button>
+    <div class="section__buttons">
+      <app-button *ngIf="btn" [text]="btn" [type]="'explore'" [link]="link"></app-button>
+
+      <app-button *ngIf="file" [text]="btn" [type]="'explore'" [link]="file" [text]="fileText"></app-button>
+    </div>
 
 </div>
-
-

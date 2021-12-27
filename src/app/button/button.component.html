@@ -1,4 +1,4 @@
-<div class="button" [ngClass]="{'move-up': move}" >
+<div class="button" [ngClass]="{'move-up': move}"  (click)="clickFunc()">
   <div *ngIf="type=='default'"  class="button__basic p-font">
     {{text}}
   </div>
@@ -21,7 +21,7 @@
   </div>
 
   <div *ngIf="type=='close'" class="button__explore p-font">
-    {{text}} 
+    {{text}}
   </div>
 
 </div>
